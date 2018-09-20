@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ps = require('ps-node');
 const doNotDisturb = require('@sindresorhus/do-not-disturb');
 const msInterval = 3000;

@@ -1,12 +1,15 @@
 {
   "name": "zoom-dnd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable DND if Zoom software is running, disable DND upon closing it.",
   "repository": {
     "type": "git",
     "url": "https://github.com/markoshust/zoom-dnd"
   },
   "main": "index.js",
+  "bin": {
+    "zoom-dnd": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
